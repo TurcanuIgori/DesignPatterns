@@ -5,13 +5,10 @@ package facade;
  */
 public class HDD {
 
-    private DVD dvd;
-
-    public HDD(DVD dvd) {
-        this.dvd = dvd;
+    public HDD() {
     }
 
-    public void loadData(){
+    public void loadData(DVD dvd){
         if(dvd.isHasData()){
             System.out.println("load data...");
             System.out.println("succesfull loaded data!");

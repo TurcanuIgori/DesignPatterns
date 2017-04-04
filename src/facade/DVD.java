@@ -5,13 +5,17 @@ package facade;
  */
 public class DVD {
 
-    private boolean hasData;
+    private boolean hasData = false;
 
     public boolean isHasData() {
         return hasData;
     }
 
-    public void setHasData() {
+    void load(){
         this.hasData = true;
+    }
+
+    void unload(){
+        this.hasData = false;
     }
 }
