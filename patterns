@@ -1,0 +1,24 @@
+Delegate                                    1
+Facade                                      1
+Factory Method                              1
+Abstract Factory
+Builder
+Prototype
+Composite
+Adapter
+Decorator/Wrapper                           1
+Command
+Chain of Responsibility
+Memento
+Mediator
+Observer or Publisher/Subscriber            1
+State
+Template Method
+Strategy                                    1
+Visitor
+Iterator
+Proxy/Surrogate
+Flyweight
+Singleton
+Bridge
+Interpreter
