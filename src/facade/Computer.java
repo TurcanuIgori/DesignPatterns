@@ -9,7 +9,7 @@ public class Computer {
     DVD dvd = new DVD();
     HDD hdd = new HDD();
 
-    void copy(){
+    public void copy(){
         power.on();
         dvd.load();
         hdd.loadData(dvd);
