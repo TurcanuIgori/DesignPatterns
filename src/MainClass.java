@@ -1,6 +1,7 @@
 import abstract_factory_method.*;
 import decorator.*;
 import facade.Computer;
+import prototype.Human;
 
 import java.security.Key;
 
@@ -9,15 +10,26 @@ import java.security.Key;
  */
 public class MainClass {
     public static void main(String[] args) {
-        DeviceFactory deviceFactory = getDeviceFactoryByCode("RU");
 
-        Mouse mouse = deviceFactory.getMouse();
-        Tachpad tachpad = deviceFactory.getTachpad();
-        Keyboard keyboard = deviceFactory.getKeyboard();
+//        test abstract factory!
 
-        mouse.click();
-        keyboard.click();
-        tachpad.click();
+//        DeviceFactory deviceFactory = getDeviceFactoryByCode("RU");
+//
+//        Mouse mouse = deviceFactory.getMouse();
+//        Tachpad tachpad = deviceFactory.getTachpad();
+//        Keyboard keyboard = deviceFactory.getKeyboard();
+//
+//        mouse.click();
+//        keyboard.click();
+//        tachpad.click();
+
+//        test protorype!
+
+        Human original = new Human(18, "Vasya");
+        System.out.println(original.toString());
+
+        Human copy = (Human) original.copy();
+        System.out.println(copy.toString());
     }
 
     public static DeviceFactory getDeviceFactoryByCode(String code){
