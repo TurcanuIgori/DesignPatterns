@@ -4,7 +4,7 @@ Factory Method                              1
 Abstract Factory                            1
 Builder                                     1
 Prototype                                   1
-Composite
+Composite                                   1
 Adapter
 Decorator/Wrapper                           1
 Command
@@ -21,4 +21,3 @@ Proxy/Surrogate
 Flyweight
 Singleton
 Bridge
-Interpreter
