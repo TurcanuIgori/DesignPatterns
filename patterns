@@ -5,9 +5,9 @@ Abstract Factory                            1
 Builder                                     1
 Prototype                                   1
 Composite                                   1
-Adapter
+Adapter                                     1
 Decorator/Wrapper                           1
-Command
+Command                                     1
 Chain of Responsibility
 Memento
 Mediator
@@ -21,3 +21,4 @@ Proxy/Surrogate
 Flyweight
 Singleton
 Bridge
+Interpreter
